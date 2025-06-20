@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="IMAGES/logo/logo.png">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <title>Elegant Games</title>
+</head>
+<body>
+    <!-- HEADER SECTION START -->
+    <header>
+  <div class="container">
+    <div class="logo">
+      <img src="IMAGES/logo/logo.png" alt="شعار المتجر">
+    </div>
+    <nav>
+        <input type="checkbox" id="menu">
+                <svg class="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-dasharray="16" stroke-dashoffset="16"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M5 5h14">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="16;0" />
+                        </path>
+                        <path d="M5 12h14">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.2s" dur="0.2s"
+                                values="16;0" />
+                        </path>
+                        <path d="M5 19h14">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.2s"
+                                values="16;0" />
+                        </path>
+                    </g>
+                </svg>
+                <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="m12 13.4l-4.9 4.9q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7l4.9-4.9l-4.9-4.9q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l4.9 4.9l4.9-4.9q.275-.275.7-.275t.7.275t.275.7t-.275.7L13.4 12l4.9 4.9q.275.275.275.7t-.275.7t-.7.275t-.7-.275z" />
+                </svg>
+      <ul>
+        <li><a href="#">الرئيسية</a></li>
+        <li><a href="#products">منتجاتنا</a></li>
+        <li><a href="#about">حول المتجر</a></li>
+        <li><a href="#games">العابنا</a></li>
+        <li><a href="#collab">شركاؤنا</a></li>
+        <li><a href="#contact">اتصل بنا</a></li>
+      </ul>
+    </nav>
+    <div class="social">
+                <a href="https://www.facebook.com/?locale=ar_AR"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href="https://wa.me/0984039525"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+                    </svg></a>
+                <a href="https://www.instagram.com/1eo.l30?utm_source=qr&igsh=MXVxdW5lbDd6a3RmdQ=="><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="72" stroke-dashoffset="72"
+                                d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0" />
+                            </path>
+                            <path stroke-dasharray="28" stroke-dashoffset="28"
+                                d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s"
+                                    values="28;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href="https://t.me/L301eo"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="14;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="10;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+    </div>
+  </div>
+</header>
+
+     <!-- HEADER SECTION END -->
+
+     <!-- HERO SECTION START -->
+
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-info">
+      <h1>Elegant Games</h1>
+      <h2>عالمك للألعاب يبدأ من هون</h2>
+      <p>
+        جاهز تدخل عالم الألعاب؟ هون بتلاقي كل شي من ألعاب الأكشن للمغامرات وحتى الألعاب الكلاسيك يلي بتحنّ إلها. أسعارنا نار، وجودتنا مضمونة... لأنك بتستاهل الأفضل.
+      </p>
+      <div class="hero-btn">
+        <button>تسوق الآن</button>
+        <button>اعرف المزيد</button>
+      </div>
+    <div class="social">
+                <a href="https://www.facebook.com/?locale=ar_AR"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href="https://wa.me/0984039525"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+                    </svg></a>
+                <a href="https://www.instagram.com/1eo.l30?utm_source=qr&igsh=MXVxdW5lbDd6a3RmdQ=="><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="72" stroke-dashoffset="72"
+                                d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0" />
+                            </path>
+                            <path stroke-dasharray="28" stroke-dashoffset="28"
+                                d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s"
+                                    values="28;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href="https://t.me/L301eo"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="14;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="10;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+    </div>
+    </div>
+    <div class="hero-img">
+      <img src="IMAGES/other thing/hero.png" alt="صورة رئيسية لمتجر الألعاب">
+    </div>
+  </div>
+</section>
+
+
+     <!-- HERO SECTION END -->
+
+     <!-- SERVECS SECTION START -->
+
+
+<section class="srvicess" id="products">
+  <div class="container">
+    <h2>منتجاتنا</h2>
+    <p>مش أي ألعاب... هون بتلاقي التوب وبس! أفضل الألعاب العالمية، أجهزتك المفضلة، وكل شي يلزمك لتكون جاهز لأي تحدي.</p>
+    <div class="services-all">
+      <div class="services">
+        <div class="img"><img src="IMAGES/products/consle.png" alt="أجهزة ألعاب"></div>
+        <h3>أجهزة الألعاب</h3>
+        <p>أحدث بلايستيشن، إكس بوكس، وحتى نينتندو... كل جهاز بتحلم فيه موجود هون.</p>
+      </div>
+      <div class="services">
+        <div class="img"><img src="IMAGES/products/gow.png" alt="ألعاب"></div>
+        <h3>ألعاب أصلية</h3>
+        <p>من FIFA لـ GTA... ألعاب أصلية 100% مع ضمان وأفضل الأسعار بالسوق.</p>
+      </div>
+      <div class="services">
+        <div class="img"><img src="IMAGES/products/headphone.png" alt="اكسسوارات"></div>
+        <h3>إكسسوارات جيمنج</h3>
+        <p>سماعات، يدات، كيبوردات RGB... كل شي يخليك تعيش تجربة لعب أسطورية.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+     <!-- SERVECS SECTION END -->
+
+     <!-- ABOUT SECTION START -->
+
+<section class="about" id="about">
+  <div class="container">
+    <div class="about-info">
+      <div class="info">
+        <h2>من نحن</h2>
+        <p>
+          في Elegant Games، هدفنا نوصل لكل لاعب تجربته الخاصة... سواء كنت بتدور على ألعاب جديدة، أجهزة قوية، أو اكسسوارات ترفع مستواك باللعب – نحنا هون لنخليك بالمقدمة.
+        </p>
+        <button>اكتشف المزيد</button>
+      </div>
+      <div class="img">
+        <img src="IMAGES/other thing/about.jpg" alt="من نحن">
+      </div>
+    </div>
+  </div>
+</section>
+
+     <!-- ABOUT SECTION END -->
+
+     <!-- COURSES SECTION START -->
+<section class="courses-section" id="games">
+  <div class="container">
+    <h2>ألعابنا</h2>
+    <p>كل الألعاب يلي بدك ياها وبسعر منافس اتفضل و اختار و لا تحتار</p>
+    <div class="all-courses">
+      
+      <div class="course">
+        <div class="img">
+          <img src="IMAGES/games/gta.jpg" alt="لعبة GTA">
+        </div>
+        <h3>GTA VI</h3>
+        <p>لعبة السالفة كلها! سرقات، سيارات، ومغامرات مجنونة</p>
+        <div class="course-prise">
+          <small><span>70$</span></small>
+          <small>59$</small>
+        </div>
+        <button>خدها حالاً</button>
+      </div>
+
+      <div class="course">
+        <div class="img">
+          <img src="IMAGES/games/fifa.jpg" alt="لعبة FIFA">
+        </div>
+        <h3>FIFA 24</h3>
+        <p>لعبة الكورة يلي ما رح تتركها من إيدك حتى لو نامت رجليك</p>
+        <div class="course-prise">
+          <small><span>60$</span></small>
+          <small>49$</small>
+        </div>
+        <button>خدها حالاً</button>
+      </div>
+
+      <div class="course">
+        <div class="img">
+          <img src="IMAGES/games/cod.jpg" alt="لعبة كول أوف ديوتي">
+        </div>
+        <h3>Call of Duty</h3>
+        <p>ضرب ونزول، حرب وطلقات، هيك بتكون اللعبة</p>
+        <div class="course-prise">
+          <small><span>65$</span></small>
+          <small>55$</small>
+        </div>
+        <button>خدها حالاً</button>
+      </div>
+
+      <div class="course">
+        <div class="img">
+          <img src="IMAGES/games/Spide.jpg" alt="لعبة سبايدرمان">
+        </div>
+        <h3>Spider-Man 2</h3>
+        <p>تخيل حالك بطل خارق وبتطير بين الأبنية , طيب حقق حلمك بتجربتك للعبة</p>
+        <div class="course-prise">
+          <small><span>75$</span></small>
+          <small>69$</small>
+        </div>
+        <button>خدها حالاً</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+     <!-- COURSES SECTION END -->
+
+     <!-- PORTOFOLIO SECTION START  -->
+
+<section class="porto-section" id="porto">
+  <div class="container">
+    <h2>أحدث الإصدارات</h2>
+    <p>عروض و خدمات و خصومات حصرية وجديدة بس من عندنا</p>
+    <div class="all-cards">
+
+      <div class="card">
+        <div class="img">
+          <img src="IMAGES/specials/PS5.jpg" alt="بلايستيشن 5">
+        </div>
+        <div class="info">
+          <h3>بلايستيشن 5</h3>
+          <p>أقوى جهاز ألعاب بالسوق مع هدية لعبة مجانية</p>
+          <button>عرض اليوم</button>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="img">
+          <img src="IMAGES/specials/xbox.jpg" alt="إكس بوكس">
+        </div>
+        <div class="info">
+          <h3>Xbox Series X</h3>
+          <p>جهاز الألعاب المميز مع 3 شهور اشتراك مجاني</p>
+          <button>عرض اليوم</button>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="img">
+          <img src="IMAGES/specials/vr.jpg" alt="نظارة VR">
+        </div>
+        <div class="info">
+          <h3>نظارة VR</h3>
+          <p>عالم افتراضي واقعي بخصم 25% لأول طلبية</p>
+          <button>عرض اليوم</button>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="img">
+          <img src="IMAGES/specials/headphone.jpg" alt="إكسسوارات">
+        </div>
+        <div class="info">
+          <h3>باقة إكسسوارات</h3>
+          <p>سماعات + يد تحكم + حامل أجهزة بخصم 30%</p>
+          <button>عرض اليوم</button>
+        </div>
+      </div>
+      
+      <div class="card">
+        <div class="img">
+          <img src="IMAGES/specials/pc.jpg" alt="كمبيوتر جيمنج">
+        </div>
+        <div class="info">
+          <h3>كمبيوتر جيمنج</h3>
+          <p>أقوى مواصفات لتشغيل كل الألعاب بسلاسة</p>
+          <button>عرض حصري</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+     <!-- PORTOFOLIO SECTION END  -->
+     <!-- TEAM SECTION START  -->
+
+<section class="team-section" id="collab">
+  <div class="container">
+    <h2>شركاؤنا</h2>
+    <p>أفضل ماركات الألعاب العالمية يلي بنتعامل معها</p>
+    <div class="team-box">
+      
+      <!-- ماركة سوني -->
+      <div class="box">
+        <div class="img">
+          <img src="IMAGES/collab/sony.jpg" alt="سوني">
+        </div>
+        <div class="info">
+          <h3>سوني</h3>
+          <p>بلايستيشن وأجهزة الجيمنج</p>
+        </div>
+      </div>
+      
+      <!-- ماركة مايكروسوفت -->
+      <div class="box">
+        <div class="img">
+          <img src="IMAGES/collab/Xbox.jpg" alt="إكس بوكس">
+        </div>
+        <div class="info">
+          <h3>مايكروسوفت</h3>
+          <p>سلسلة أجهزة إكس بوكس</p>
+        </div>
+      </div>
+      
+      <!-- ماركة نينتندو -->
+      <div class="box">
+        <div class="img">
+          <img src="IMAGES/collab/nintendo.jpg" alt="نينتندو">
+        </div>
+        <div class="info">
+          <h3>نينتندو</h3>
+          <p>سويتش وألعاب المحمول</p>
+        </div>
+      </div>
+      
+      <!-- ماركة ستيم -->
+      <div class="box">
+        <div class="img">
+          <img src="IMAGES/collab/steam.jpg" alt="ستيم">
+        </div>
+        <div class="info">
+          <h3>ستيم</h3>
+          <p>منصة الألعاب الرقمية</p>
+        </div>
+      </div>
+      
+      <!-- ماركة جديدة (إضافة خامسة) -->
+      <div class="box">
+        <div class="img">
+          <img src="IMAGES/collab/razer.jpg" alt="رازر">
+        </div>
+        <div class="info">
+          <h3>رازر</h3>
+          <p>إكسسوارات جيمنج محترفة</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+     <!-- TEAM SECTION END  -->
+    <!-- SKILLES SECTION START -->
+
+    <div class="skilles-section" id="skills">
+       
+        <div class="container">
+            <div class="skilles-info">
+                <div class="info">
+                    <h2>اللعبة الاكثر طلبا !</h2>
+                    <p>بالعادة يطلب منا العاب شوتر بشكل كبير ,بس الاقبال الهائل على mordern warfare تخطى توقعاتنا!</p>
+                    
+                         <div class="skilles">
+                <h3>نسبة النسخ</h3>
+               
+                
+                <div class="skilles-data">
+                <div class="skille">
+                    <h4>النسخ المشترات :</h4>
+                    <svg class="sk1" width="100" height="100">
+                        
+                        <circle class="cir1" cx="50" cy="50" r="40">
+                    </svg>
+                    
+                </div>
+                </div>
+                
+            </div>
+            </div>
+            <div class="skilles-img">
+                <img src="IMAGES/bg/cod.jpg" alt="">
+            </div>
+            
+            </div>
+        </div>
+    </div>
+    <!-- SKILLES SECTION END -->
+
+    <!-- PRICEING SECTION START -->
+
+    <section class="priceing-section" id="pri">
+  <div class="container">
+    <h2>باقات العضويات</h2>
+    <p>اشترك واحصل على مميزات حصرية لكل لاعب</p>
+    
+    <div class="priceing-all">
+      
+      <!-- الباقة الأساسية -->
+      <div class="priceing">
+        <div class="img">
+          <img src="IMAGES/other thing/ship (4).jpg" alt="باقة أساسية">
+        </div>
+        <div class="info">
+          <h3>العضوية الأساسية</h3>
+          <div class="price">
+            <span>10$</span>
+            <span>شهرياً</span>
+          </div>
+        </div>
+        <ul>
+          <li>خصم 10% على كل المشتريات</li>
+          <li>تحديثات أسبوعية للعروض</li>
+          <li>دعم فني سريع</li>
+          <button class="price">اشترك الآن</button>
+        </ul>
+      </div>
+      
+      <!-- باقة PRO -->
+      <div class="priceing">
+        <div class="img">
+          <img src="IMAGES/other thing/ship (2).jpg" alt="باقة PRO">
+        </div>
+        <div class="info">
+          <h3>عضوية PRO</h3>
+          <div class="price">
+            <span>25$</span>
+            <span>شهرياً</span>
+          </div>
+        </div>
+        <ul>
+          <li>خصم 20% على كل المشتريات</li>
+          <li>وصول مبكر للألعاب الجديدة</li>
+          <li>هدية شهرية (لعبة مجانية)</li>
+          <li>دعم فني على مدار الساعة</li>
+          <button class="price">اشترك الآن</button>
+        </ul>
+      </div>
+      
+      <!-- الباقة الجديدة (إلكترو) -->
+      <div class="priceing">
+        <div class="img">
+          <img src="IMAGES/other thing/ship (3).jpg" alt="باقة إلكترو">
+        </div>
+        <div class="info">
+          <h3>عضوية إلكترو</h3>
+          <div class="price">
+            <span>35$</span>
+            <span>شهرياً</span>
+          </div>
+        </div>
+        <ul>
+          <li>خصم 25% على كل المشتريات</li>
+          <li>وصول أسبوعي لألعاب مجانية</li>
+          <li>حسم 50% على الإكسسوارات</li>
+          <li>دعم فني 24/7</li>
+          <li>توصيل مجاني لكل الطلبات</li>
+          <button class="price">اشترك الان</button>
+        </ul>
+      </div>
+      
+      <!-- باقة VIP -->
+      <div class="priceing">
+        <div class="img">
+          <img src="IMAGES/other thing/ship (1).jpg" alt="باقة VIP">
+        </div>
+        <div class="info">
+          <h3>عضوية VIP</h3>
+          <div class="price">
+            <span>50$</span>
+            <span>شهرياً</span>
+          </div>
+        </div>
+        <ul>
+          <li>خصم 35% على كل المشتريات</li>
+          <li>حجز ألعاب قبل نزولها</li>
+          <li>بونص شهري 10$</li>
+          <li>دعم فني مخصص</li>
+          <li>دعوات لحفلات إطلاق الألعاب</li>
+          <button class="price">اشترك الآن</button>
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</section>
+    <!-- PRICEING SECTION END -->
+
+
+    <!-- TESTIMONIAL SECTION START -->
+
+<section class="testimonial-section" id="testimonials">
+  <div class="container">
+    <h2>شو قالو عنّا اللاعبين؟</h2>
+    <p>مو نحنا اللي عم نحكي... هاد رأي زبائننا بعد ما جربوا Elegant Games بنفسهم!</p>
+    <div class="testimonial">
+
+      <div class="test">
+        <div class="img">
+          <img src="IMAGES/testimonials/face (4).jpg" alt="عميل 1">
+        </div>
+        <h3>سامي</h3>
+        <p>طلبت بلايستيشن 5 مع لعبتين... وصل خلال يومين وبحالة ممتازة. والله تجربة ولا أروع،<br> صرت زبون دائم!</p>
+        <div class="stars">
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star-half-stroke"></i></span>
+        </div>
+      </div>
+
+      <div class="test">
+        <div class="img">
+          <img src="IMAGES/testimonials/face (1).jpg" alt="عميل 2">
+        </div>
+        <h3>رزان</h3>
+        <p>أفضل محل ألعاب بلا منافس! طلب التوصيل سريع كتير, الكيبورد RGB يلي وصلني خرافي... والسعر أقل من السوق!</p>
+        <div class="stars">
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+        </div>
+      </div>
+
+      <div class="test">
+        <div class="img">
+          <img src="IMAGES/testimonials/face (5).jpg" alt="عميل 3">
+        </div>
+        <h3>ليث</h3>
+        <p>طلبت يد تحكم PS5... <br>   وصلتني بأقل من 24 ساعة! شباب المحل محترمين وسريعين بالشحن يعني بتزيد طلباتك بعد هيك خدمة</p>
+        <div class="stars">
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+        </div>
+      </div>
+
+      <div class="test">
+        <div class="img">
+          <img src="IMAGES/testimonials/face (2).jpg" alt="عميل 4">
+        </div>
+        <h3>نور</h3>
+        <p>بصراحة ما توقعت هالسرعة بالتوصيل! طلبت لعبة Elden Ring ووصلت تاني يوم... أكيد رح أرجع أطلب مرة تانية.</p>
+        <div class="stars">
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+        </div>
+      </div>
+
+      <div class="test">
+        <div class="img">
+          <img src="IMAGES/testimonials/face (6).jpg" alt="عميل 5">
+        </div>
+        <h3>يزن</h3>
+        <p>يا جماعة المكان خرافي، اشتريت منهم ماوس جيمنج... الأداء رهيب والسعر كتير منطقي، نصيحة لأي لاعب جدّي.</p>
+        <div class="stars">
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+        </div>
+      </div>
+
+      <div class="test">
+        <div class="img">
+          <img src="IMAGES/testimonials/face (3).jpg" alt="عميل 6">
+        </div>
+        <h3>هبة</h3>
+        <p>طلبت لابتوب جيمنج من عندن... شغل مرتب، تغليف ممتاز، وخدمة عملاء بيردوا عالسريع بدون لف ودوران. عجبتني التجربة!</p>
+        <div class="stars">
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+        </div>
+      </div>
+
+      <div class="test">
+        <div class="img">
+          <img src="IMAGES/testimonials/face (7).jpg" alt="عميل 7">
+        </div>
+        <h3>مجد</h3>
+        <p>أول مرة بطلب من موقع عربي بهالاحترافية... كل شي كان تمام من الطلب للتوصيل. أنصح كل حدا يجرب Elegant Games بدون تردد.</p>
+        <div class="stars">
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+          <span><i class="fa-solid fa-star"></i></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- TESTIMONIAL SECTION END -->
+
+
+    <!-- FOOTER SECTION START -->
+     <footer id="foot">
+        
+        <div class="container">
+            <div class="social">
+            <ul>
+                <li><i class="fa-brands fa-instagram"></i> <span>instagram</span></li>
+                <li><i class="fa-brands fa-x-twitter"></i> <span>twitter</span></li>
+                <li><i class="fa-brands fa-pinterest"></i> <span>pintrest</span></li>
+                <li><i class="fa-brands fa-facebook-f"></i> <span>facebook</span></li>
+                <li><i class="fa-brands fa-youtube"></i> <span>yuotube</span></li>
+            </ul>
+        </div>
+        
+            <p>اشترك معنا حتى تصير واحد من مَن خلدهم التاريخ</p>
+        </div>
+        <div class="connect" id="contact">
+           <div>
+             <span><i class="fa-solid fa-envelope"></i></span>
+            <a href="">hamode.alblati@gmail.com</a>
+           </div>
+           <div>
+             <span><i class="fa-solid fa-phone"></i></span>
+            <p>(+963)984-039-525</p>
+           </div>
+
+        </div>
+        <div class="copy">
+            <p>جميع الحقوق محفوظة 2025 &copy;</p>
+        </div>
+        </div>
+       
+     </footer>
+    <!-- FOOTER SECTION END -->
+
+
+    <a href="https://wa.me/0984039525" class="whats">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="#hero" class="btn-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    
+    <script type="text/javascript" src="JS/script.js"></script>
+        
+</body>
+
+</html>
